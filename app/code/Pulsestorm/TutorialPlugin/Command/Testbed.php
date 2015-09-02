@@ -87,7 +87,7 @@ class Testbed extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $output->writeln(
-            "\nWe're going to calls the `getMessage` method on the class " . "\n\n" .
+            "\nWe're going to call the `getMessage` method on the class " . "\n\n" .
             '    ' . get_class($this->example) . "\n"
         );
         
