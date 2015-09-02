@@ -1,0 +1,12 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <!-- START: argument replacement that enables our command -->
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="Pulsestorm\TutorialPluginTestbedCommand"   xsi:type="object">Pulsestorm\TutorialPlugin\Command\Testbed</item>
+                <item name="Pulsestorm\TutorialPluginInstalledCommand" xsi:type="object">Pulsestorm\TutorialPlugin\Command\Installed</item>
+            </argument>
+        </arguments>
+    </type>    
+    <!-- END: argument replacement that enables our command -->    
+</config>
