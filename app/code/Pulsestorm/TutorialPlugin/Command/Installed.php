@@ -17,7 +17,7 @@ class Installed extends Command
     
     protected function configure()
     {
-        $this->setName("ps:tutorial-installed");
+        $this->setName("ps:tutorial-plugin-installed");
         $this->setDescription("Test that the command is installed.");
         parent::configure();
     }
